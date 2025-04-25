@@ -27,7 +27,7 @@
 ---
 
 
-![LDA Topic Distribution](images/topic_distribution.png)
+![LDA Topic Distribution](dominant_topic_distribution.png)
 
 ---
 
