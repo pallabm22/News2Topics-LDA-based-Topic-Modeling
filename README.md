@@ -37,14 +37,4 @@ topics = {
     5: 'said, police, news, road, daily, mymensingh, bridge, truck, star, bangladesh',
 }
 
-
-## 🧠 Sample Topics with LLM-generated Labels
-
-```python
-topics = { 
-    1: 'Road Safety & Accidents',
-    2: 'Traffic Law & Enforcement',
-    3: 'Public Transport Incidents',
-    4: 'Emergency Response & Injuries',
-    5: 'Local Accident Reports'
-}
+---
