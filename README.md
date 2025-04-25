@@ -31,7 +31,7 @@
 
 ---
 ## Topic Distribution Graph 
-<img src="interface.png" alt="Topic Distribution" width="600" />
+<img src="Graph.png" alt="Topic Distribution" width="800" />
 
 ---
 
