@@ -27,7 +27,8 @@
 
 
 ---
-<img src="dominant_topic_distribution.png" alt="Topic Distribution" width="600" />
+## Topic Distribution Count
+<img src="dominant_topic_distribution.png" alt="Topic Distribution" width="800" />
 
 ---
 ## Topic Distribution Graph 
