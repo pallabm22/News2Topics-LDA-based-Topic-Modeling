@@ -26,6 +26,11 @@
 
 ---
 
+
+![LDA Topic Distribution](images/topic_distribution.png)
+
+---
+
 ## 📊 Sample Topics Output
 
 ```python
@@ -39,5 +44,4 @@ topics = {
 
 ---
 
-![LDA Topic Distribution](images/topic_distribution.png)
 
