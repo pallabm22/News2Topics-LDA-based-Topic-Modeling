@@ -38,3 +38,6 @@ topics = {
 }
 
 ---
+
+![LDA Topic Distribution](images/topic_distribution.png)
+
