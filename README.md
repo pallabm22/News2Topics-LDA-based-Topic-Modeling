@@ -4,14 +4,14 @@
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **input.csv**: This single CSV file contains all the news articles used in the project.
     - Columns: `URL`, `Date`, `Headline`, `Content`, `Portal`, etc.
 
 ---
 
-## 🔍 Pipeline Overview
+## Pipeline Overview
 
 1. **Preprocessing**
    - Tokenization, stopword removal, punctuation stripping
@@ -30,8 +30,12 @@
 <img src="dominant_topic_distribution.png" alt="Topic Distribution" width="600" />
 
 ---
+## Topic Distribution Graph 
+<img src="interface.png" alt="Topic Distribution" width="600" />
 
-## 📊 Sample Topics Output
+---
+
+## Sample Topics Output
 
 ```python
 topics = { 
