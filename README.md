@@ -1,31 +1,28 @@
 # News2Topics - LDA-based Topic Modeling
 
-This project performs unsupervised topic modeling on a collection of news articles using Latent Dirichlet Allocation (LDA). It extracts underlying themes from headlines and content, helping to uncover hidden structures and trends in news data.
-
-## 📌 Features
-
-- Combines and cleans news text from multiple sources
-- Tokenizes, removes stopwords, and preprocesses text
-- Builds a dictionary and corpus using `gensim`
-- Trains an LDA model to identify key topics
-- Visualizes topics and outputs top keywords per topic
-- Generates a final merged dataset for downstream use
+**News2Topics** is a topic modeling project that uncovers hidden themes from a collection of news articles using **Latent Dirichlet Allocation (LDA)**. The project processes raw text data, extracts key topics, and uses an **LLM** to assign human-readable names to each discovered topic.
 
 ---
 
 ## 📂 Dataset
 
-The project uses dataset:
-- `input.csv`: Contains columns like `URL`, `Date`, `Headline`, `Content`, `Portal`, etc.
+- **input.csv**: This single CSV file contains all the news articles used in the project.
+    - Columns: `URL`, `Date`, `Headline`, `Content`, `Portal`, etc.
 
 ---
 
-## 🔍 Topic Modeling Process
+## 🔍 Pipeline Overview
 
-- Preprocessing: Tokenization, lowercasing, removal of punctuation and stopwords
-- Dictionary and Bag-of-Words construction
-- Training with LDA (`gensim.models.LdaModel`)
-- Topic visualization (optionally using `pyLDAvis`)
+1. **Preprocessing**
+   - Tokenization, stopword removal, punctuation stripping
+2. **Corpus Creation**
+   - Build dictionary and bag-of-words using `gensim`
+3. **Topic Modeling**
+   - LDA is applied to extract dominant topics from text
+4. **Topic Labeling**
+   - A **Large Language Model (LLM)** is used to generate meaningful names for each topic
+5. **Output**
+   - Final topics with top words and labels stored for analysis or visualization
 
 ---
 
@@ -38,4 +35,16 @@ topics = {
     3: 'police, injured, said, bus, upazila, news, killed, around, hospital, people',
     4: 'said, police, star, news, daily, accident, road, dhaka, bus, injured',
     5: 'said, police, news, road, daily, mymensingh, bridge, truck, star, bangladesh',
+}
+---
+
+## 🧠 Sample Topics with LLM-generated Labels
+
+```python
+topics = { 
+    1: 'Road Safety & Accidents',
+    2: 'Traffic Law & Enforcement',
+    3: 'Public Transport Incidents',
+    4: 'Emergency Response & Injuries',
+    5: 'Local Accident Reports'
 }
