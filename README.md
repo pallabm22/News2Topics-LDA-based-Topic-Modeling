@@ -24,13 +24,10 @@
 5. **Output**
    - Final topics with top words and labels stored for analysis or visualization
 
----
 
-
-![LDA Topic Distribution](dominant_topic_distribution.png)
 
 ---
-<img src="dominant_topic_distribution.png" alt="Topic Distribution" width="400" />
+<img src="dominant_topic_distribution.png" alt="Topic Distribution" width="600" />
 
 ---
 
